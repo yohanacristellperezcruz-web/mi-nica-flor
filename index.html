@@ -106,5 +106,31 @@ function animate() {
 }
 animate();
   </script>
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Flor</title>
+</head>
+<body>
+
+    <!-- Aquí va el contenido de tu página -->
+
+    <audio id="musica" autoplay loop>
+        <source src="ytmp3free.cc_twilightbon-iver-st-vincent-roslynedit-youtubemp3free.org (1).mp3" type="audio/mpeg">
+        Tu navegador no soporta el audio.
+    </audio>
+
+    <script>
+        var musica = document.getElementById("musica");
+
+        musica.volume = 0.5;
+
+        musica.play().catch(function () {
+            document.addEventListener("click", function () {
+                musica.play();
+            }, { once: true });
+        });
+    </script>
 </body>
 </html>
