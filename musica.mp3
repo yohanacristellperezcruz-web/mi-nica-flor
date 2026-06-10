@@ -108,19 +108,6 @@ function animate() {
     requestAnimationFrame(animate);
 }
 animate();
-    var musica = document.getElementById("musica");
-
-// Volumen (0 a 1)
-musica.volume = 0.5;
-
-// Intentar reproducir automáticamente
-musica.play().catch(function () {
-    // Si el navegador bloquea el autoplay,
-    // se reproducirá al primer clic
-    document.addEventListener("click", function () {
-        musica.play();
-    }, { once: true });
-});
   </script>
 </body>
 </html>
