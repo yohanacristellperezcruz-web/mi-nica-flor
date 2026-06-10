@@ -23,11 +23,41 @@ var doc=document,flower=doc.querySelector('.flower'),petalPartMarkup='<div class
   // Followers - Cambiar mensajes
   const messages = [
     'Esta flor es para ti',
-    'Te quiero mucho',
-    'Gracias por todo',
-    '¡Eres especial!',
-    '¡Feliz dia ❤️!'
-  ];
+    'Adilene...',
+    'flor de mi jardín...',
+    'la más bonita que...',
+    'vi florecer,',
+    'Con cada pétalo...',
+    'me haces sonreír;',
+    'Eres mi luz,...',
+    'mi alegría,',
+    'Gracias por ser,...',
+    'mi flor eterna,...',
+    'Eres mi sol,...',
+    'mi luna,...', 
+    'mi estrella,...',
+    'mi flor más bella,...',
+    'mi vida entera,...',
+    'Quiero que sepas',
+    'que cada dia...',
+    'me enamoras más,',
+    'Un dia venceremos',
+    'la distancia.',
+    'Un dia estaremos,',
+    'tomadas de la mano',
+    'y simplemente...',
+    'siendo felices,...',
+    'sin importar nada más.',
+    'Recuerda que...',
+    'estaré aquí para ti,',
+    'y recuerda que...',
+    'Siempre eres tu y...',
+    'Siempre serás tu.',
+    'Te amo mi niña',
+    'siempre serás,...',
+    'La dueña,',
+    'de mi corazón💕!'
+  ]
   
   var wrapper = document.querySelector('.wrapper');
   var msg = document.querySelector('.flower-message');
